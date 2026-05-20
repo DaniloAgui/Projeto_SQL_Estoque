@@ -1,0 +1,78 @@
+INSERT INTO tabelafornecedores
+(nome, telefone, email, pais)
+VALUES
+('Tech USA', '111111111', 'usa@tech.com', 'Estados Unidos'),
+('Tokyo Eletronics', '222222222', 'tokyo@email.com', 'Japão'),
+('Berlin Imports', '333333333', 'berlin@email.com', 'Alemanha'),
+('Paris Fashion', '444444444', 'paris@email.com', 'França'),
+('London Tech', '555555555', 'london@email.com', 'Reino Unido'),
+('Seoul Mobile', '666666666', 'seoul@email.com', 'Coreia do Sul'),
+('Dubai Market', '777777777', 'dubai@email.com', 'Emirados Árabes'),
+('Roma Store', '888888888', 'roma@email.com', 'Itália'),
+('Madrid Center', '999999999', 'madrid@email.com', 'Espanha'),
+('Toronto Imports', '101010101', 'toronto@email.com', 'Canadá'),
+('Mexico Digital', '202020202', 'mexico@email.com', 'México'),
+('China Express', '303030303', 'china@email.com', 'China'),
+('India Tech', '404040404', 'india@email.com', 'Índia'),
+('Russia Hardware', '505050505', 'russia@email.com', 'Rússia'),
+('Australia Shop', '606060606', 'australia@email.com', 'Austrália'),
+('Argentina Market', '707070707', 'arg@email.com', 'Argentina'),
+('Chile Imports', '808080808', 'chile@email.com', 'Chile'),
+('Africa Trade', '909090909', 'africa@email.com', 'África do Sul'),
+('Portugal Store', '121212121', 'pt@email.com', 'Portugal'),
+('Swiss Luxury', '131313131', 'swiss@email.com', 'Suíça'),
+('Norway Tech', '141414141', 'norway@email.com', 'Noruega'),
+('Sweden Digital', '151515151', 'sweden@email.com', 'Suécia'),
+('Finland Mobile', '161616161', 'finland@email.com', 'Finlândia'),
+('Turkey Imports', '171717171', 'turkey@email.com', 'Turquia'),
+('Poland Hardware', '181818181', 'poland@email.com', 'Polônia'),
+('Ukraine Store', '191919191', 'ukraine@email.com', 'Ucrânia'),
+('Singapore Tech', '212121212', 'singapore@email.com', 'Singapura'),
+('Thailand Mobile', '232323232', 'thailand@email.com', 'Tailândia'),
+('Vietnam Digital', '242424242', 'vietnam@email.com', 'Vietnã'),
+('Netherlands Market', '252525252', 'netherlands@email.com', 'Holanda');
+
+
+insert into tabelaprodutos 
+(
+nome_produto,
+descricao_produto,
+categoria_id,
+preco_compra,
+quantidade_estoque,
+unidade,
+fornecedor_id
+)
+values
+('PlayStation 5', 'Console Sony', 6, 4500, 8, 'UN', 10),
+('Xbox Series X', 'Console Microsoft', 6, 4300, 5, 'UN', 11),
+('Nintendo Switch', 'Console Nintendo', 6, 2800, 10, 'UN', 12),
+('Volante Logitech', 'Volante Gamer', 7, 1900, 6, 'UN', 13),
+('TV Samsung 50', 'Smart TV 4K', 8, 3200, 7, 'UN', 14),
+('Soundbar JBL', 'Audio Premium', 9, 1400, 9, 'UN', 15),
+('Drone DJI', 'Drone profissional', 1, 5200, 3, 'UN', 16),
+('Camera Canon', 'Camera DSLR', 1, 6100, 4, 'UN', 17),
+('GoPro Hero', 'Camera esportiva', 1, 2400, 11, 'UN', 18),
+('MacBook Pro', 'Apple M3', 5, 12500, 2, 'UN', 19),
+('Notebook Asus', 'Ryzen 7', 5, 4800, 8, 'UN', 20),
+('Tablet Samsung', 'Galaxy Tab', 2, 2100, 13, 'UN', 21),
+('AirPods Pro', 'Fone Apple', 9, 1800, 14, 'UN', 22),
+('Alexa Echo', 'Assistente virtual', 8, 700, 18, 'UN', 23),
+('Cadeira Office', 'Ergonomica', 4, 950, 12, 'UN', 24),
+('Mesa Gamer', 'RGB', 4, 1300, 6, 'UN', 25),
+('HD Externo', '2TB', 5, 550, 20, 'UN', 26),
+('SSD NVME', '1TB Gen4', 5, 690, 15, 'UN', 27),
+('Monitor Gamer', '240Hz', 5, 2200, 7, 'UN', 28),
+('Microfone HyperX', 'Streamer', 9, 890, 10, 'UN', 29),
+('Webcam Logitech', 'Full HD', 9, 430, 13, 'UN', 30),
+('Camisa Adidas', 'Esportiva', 3, 120, 40, 'UN', 5),
+('Tênis Puma', 'Corrida', 3, 390, 25, 'UN', 6),
+('Bola Nike', 'Futebol', 7, 180, 18, 'UN', 7),
+('Bicicleta', 'Mountain Bike', 7, 3500, 5, 'UN', 8),
+('Esteira Fitness', 'Academia', 10, 4200, 4, 'UN', 9),
+('Smartwatch Garmin', 'Fitness', 10, 2700, 9, 'UN', 10),
+('Cafeteira Nespresso', 'Capsulas', 4, 600, 16, 'UN', 11),
+('Geladeira LG', 'Frost Free', 4, 5200, 2, 'UN', 12),
+('Ar Condicionado', '12000 BTUs', 4, 2800, 6, 'UN', 13);
+
+
